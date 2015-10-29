@@ -5,20 +5,20 @@ to your content, or do more advanced renderings with javascript on your jekyll s
 that can't be done with the liquid syntax.
 
 ### Table of contents
-- [Ideas of what you can build with this API]
+- [Ideas of what you can build with this API](#ideas-of-what-you-can-build-with-this-api)
 - [Installation](#Installation)
--- Via git submodule
--- Via bower
-- Output examples
--- posts.json
--- settings.json
+	- [Via git submodule](#via-git-submodule)
+	- [Via bower](#via-bower)
+- [Output examples](#output-examples)
+	- [posts.json](#postsjson)
+	- [settings.json](#settingsjson)
 
 ### Ideas of what you can build with this API:
-- Search trough *all* your Jekyll posts with javascript, without having to
+- Search trough **all** your Jekyll posts with javascript, without having to
     parse the HTML.
-- Define settings for your javascript via your _config.yml
+- Define settings for your javascript via your `_config.yml`.
 - Create a javascript code that will alert the user on the screen when
-    there is a new post available
+    there is a new post available.
 - Apply filters to the post content before rendering, such as wrapping all
     images in a different code for a lightbox system.
 
@@ -31,11 +31,23 @@ that can't be done with the liquid syntax.
 git submodule add 'https://github.com/riichard/jekyll-rest-api'
 ```
 
-###### Using
-```bash
-curl http://myjekyllsite.com/jekyll-rest-api/posts.json
+###### Usage
+```
+http://myjekyllsite.com/jekyll-rest-api/posts.json
 ```
 This also works like a charm on `.github.io` URLs. 
+
+#### Via bower
+
+###### Installing
+```bash
+bower install jekyll-rest-api
+```
+
+####### Usage
+```
+http://myjekyllsite.com/bower_components/jekyll-rest-api/posts.json
+```
 
 # Output examples
 
