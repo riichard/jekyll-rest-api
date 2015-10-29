@@ -32,10 +32,22 @@ git submodule add 'https://github.com/riichard/jekyll-rest-api'
 ```
 
 ###### Usage
-```bash
-curl http://myjekyllsite.com/jekyll-rest-api/posts.json
+```
+http://myjekyllsite.com/jekyll-rest-api/posts.json
 ```
 This also works like a charm on `.github.io` URLs. 
+
+#### Via bower
+
+###### Installing
+```bash
+bower install jekyll-rest-api
+```
+
+####### Usage
+```
+http://myjekyllsite.com/bower_components/jekyll-rest-api/posts.json
+```
 
 # Output examples
 
