@@ -5,13 +5,13 @@ to your content, or do more advanced renderings with javascript on your jekyll s
 that can't be done with the liquid syntax.
 
 ### Table of contents
-- [Ideas of what you can build with this API]
+- [Ideas of what you can build with this API](#ideas-of-what-you-can-build-with-this-api)
 - [Installation](#Installation)
--- Via git submodule
--- Via bower
-- Output examples
--- posts.json
--- settings.json
+	- [Via git submodule](#via-git-submodule)
+	- [Via bower](#via-bower)
+- [Output examples](#output-examples)
+	- [posts.json](#postsjson)
+	- [settings.json](#settingsjson)
 
 ### Ideas of what you can build with this API:
 - Search trough *all* your Jekyll posts with javascript, without having to
@@ -31,7 +31,7 @@ that can't be done with the liquid syntax.
 git submodule add 'https://github.com/riichard/jekyll-rest-api'
 ```
 
-###### Using
+###### Usage
 ```bash
 curl http://myjekyllsite.com/jekyll-rest-api/posts.json
 ```
