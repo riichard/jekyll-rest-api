@@ -6,7 +6,7 @@
             "id"         : "{{ post.id }}",
             "title"      : "{{ post.title | escape }}",
             "category"   : "{{ post.category }}",
-            "tags"       : "{{ post.tags }}",
+            "tags"       : "{{ post.tags | join: ', ' }}",
             "url"        : "{{ post.url }}",
             "path"       : "{{ post.path }}",
             "next"       : "{{ post.next.url }}",
