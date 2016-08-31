@@ -74,6 +74,9 @@ All output examples can also be found in the `output-example` folder.
 ]
 ```
 
+##### JSONP - Cross domain access
+To access this file cross domain, you can load `/posts.js` and create a callback function called `jekyllPostsCallback`. Due to technical limitations of static file servers it's not possible to pass a custom callback function name.
+
 ### /settings.json
 ```json
 {
@@ -98,3 +101,6 @@ All output examples can also be found in the `output-example` folder.
 }
 ```
 This will contain all keys defined in `_config.yml`. Due to a conflict with jekyll, this file couldn't be named `config.json` but is named `settings.json` instead.
+
+##### JSONP - Cross domain access
+To access this file cross domain, you can load `/settings.js` and create a callback function called `jekyllSettingsCallback`. Due to technical limitations of static file servers it's not possible to pass a custom callback function name.
