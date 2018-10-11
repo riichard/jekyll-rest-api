@@ -44,7 +44,7 @@ This also works like a charm on `.github.io` URLs.
 bower install jekyll-rest-api
 ```
 
-####### Usage
+###### Usage
 ```
 http://myjekyllsite.com/bower_components/jekyll-rest-api/posts.json
 ```
