@@ -14,7 +14,7 @@ that can't be done with the liquid syntax.
 	- [settings.json](#settingsjson)
 
 ### Ideas of what you can build with this API:
-- Search trough **all** your Jekyll posts with javascript, without having to
+- Search through **all** your Jekyll posts with javascript, without having to
     parse the HTML.
 - Define settings for your javascript via your `_config.yml`.
 - Create a javascript code that will alert the user on the screen when
